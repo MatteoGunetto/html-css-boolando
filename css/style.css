@@ -1,0 +1,70 @@
+/* regole generali */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* regole header */
+.header-container{
+    display: flex;
+    width: 100%;
+    background-color: rgb(255, 105, 0);
+    height: 80px;
+}
+
+
+/* header-section */
+.header-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    width: 80%;
+}
+.menu-header{
+    display: flex;
+    gap: 10px;
+    list-style: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+#logo-boolando{
+width: 150px;
+}
+.fa-regular{
+    color: white;
+}
+.fa-solid{
+    color: white;
+}
+
+/* regole main */
+.main-conteiner{
+    justify-content: space-around;
+    display: flex;
+    width: 100%;
+
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 80%;
+    margin-top: 30px;
+}
+img{
+    width: 500px;
+}
+.model{
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+.red-price{
+    font-weight: bold;
+    color: red;
+}
+.discount{
+    text-decoration: line-through
+}
