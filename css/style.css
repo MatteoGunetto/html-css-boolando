@@ -106,6 +106,7 @@ img{
     background-color: rgb(255, 0, 0);
 }
 .product{
+    /* width:calc(100% / 3); */
     position: relative;
 }
 .sostenibilità{
@@ -122,11 +123,27 @@ img{
     left: 0;
     bottom: 120px;
 }
-.product.coll.teeb{display: none;
-}
-.product.coll.tee:hover.product.coll.teeb{
-    cursor: pointer;
+.levis-tee:hover{
+    content: url(../img/1b.webp);
     width: 500px;
-
-
+}
+.guess:hover{
+    content: url(../img/2b.webp);
+    width: 500px;
+}
+.zucchero-filato:hover{
+    content: url(../img/3b.webp);
+    width: 500px;
+}
+.levis-unisex:hover{
+    content: url(../img/4b.webp);
+    width: 500px;
+}
+.maya:hover{
+    content: url(../img/5b.webp);
+    width: 500px;
+}
+.esprit:hover{
+    content: url(../img/6b.webp);
+    width: 500px;
 }
