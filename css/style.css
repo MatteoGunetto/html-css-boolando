@@ -59,7 +59,7 @@ width: 150px;
     margin-top: 30px;
 }
 img{
-    width: 500px;
+    width:95%;
 }
 .model{
     font-size: 20px;
@@ -106,7 +106,7 @@ img{
     background-color: rgb(255, 0, 0);
 }
 .product{
-    /* width:calc(100% / 3); */
+    width:calc(100%/3);
     position: relative;
 }
 .sostenibilità{
@@ -125,25 +125,25 @@ img{
 }
 .levis-tee:hover{
     content: url(../img/1b.webp);
-    width: 500px;
+    width: 95%;
 }
 .guess:hover{
     content: url(../img/2b.webp);
-    width: 500px;
+    width: 95%;
 }
 .zucchero-filato:hover{
     content: url(../img/3b.webp);
-    width: 500px;
+    width: 95%;
 }
 .levis-unisex:hover{
     content: url(../img/4b.webp);
-    width: 500px;
+    width: 95%;
 }
 .maya:hover{
     content: url(../img/5b.webp);
-    width: 500px;
+    width: 95%;
 }
 .esprit:hover{
     content: url(../img/6b.webp);
-    width: 500px;
+    width: 95%;
 }
