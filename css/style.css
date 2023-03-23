@@ -33,14 +33,20 @@
     font-size: 20px;
     font-weight: bold;
 }
+li:hover{
+    text-decoration: underline;
+}
 #logo-boolando{
 width: 150px;
 }
-.fa-regular{
+.fa-regular,.fa-solid{
     color: white;
 }
-.fa-solid{
-    color: white;
+.fa-regular:hover{
+    color: black;
+}
+.fa-solid:hover{
+    color: black;
 }
 
 /* regole main */
@@ -49,7 +55,6 @@ width: 150px;
     justify-content: space-around;
     display: flex;
     width: 100%;
-
 }
 .row{
     display: flex;
@@ -72,29 +77,6 @@ img{
 }
 .discount{
     text-decoration: line-through
-}
-/* regole footer */
-.footer-conteiner{
-    display: flex;
-    width: 100%;
-    background-color:rgb(26, 26, 26);
-    color: white;
-    margin-top: 20px;
-    padding-top: 30px;
-    padding-bottom: 30px;
-}
-.footer-section{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0 auto;
-    width: 80%;
-}
-.menu-footer{
-    display: flex;
-    gap: 10px;
-    list-style: none; 
-    font-size: 10px;
 }
 .sconto{
     font-weight: bold;
@@ -123,6 +105,46 @@ img{
     left: 0;
     bottom: 120px;
 }
+.hearts{
+    color: rgb(0, 0, 0);
+    position: absolute;
+    right: 0;
+    bottom: 90%;
+    padding: 5px;
+    font-size: 50px;
+}
+.hearts:hover{
+    color: rgb(252, 4, 4);
+    position: absolute;
+    right: 0;
+    bottom: 90%;
+    padding: 5px;
+    font-size: 50px;
+}
+/* regole footer */
+.footer-conteiner{
+    display: flex;
+    width: 100%;
+    background-color:rgb(26, 26, 26);
+    color: white;
+    margin-top: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.footer-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    width: 80%;
+}
+.menu-footer{
+    display: flex;
+    gap: 10px;
+    list-style: none; 
+    font-size: 10px;
+}
+
 .levis-tee:hover{
     content: url(../img/1b.webp);
     width: 100%;
